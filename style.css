@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+body {
+    background-image: linear-gradient(135deg, #09334d, #48adff)!important; /* Degradado azul turquesa a azul claro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.caja {
+    font-family: 'Montserrat', sans-serif;
+    width: 90%; 
+    height: 90%; 
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+}
+
+
+#logo {
+    width: 300px; 
+    height: auto; 
+}
+
+.titulo {
+    font-size: 48px; 
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+.texto {
+    font-size: 24px; 
+    margin-bottom: 30px;
+}
+
+.boton {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #10547E;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 4px solid #10547E;
+    text-decoration: none;
+    font-size: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.boton:hover{
+    color: #10547E;
+    background-color: #ffffff;
+
+}
+
+.boton a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contenedor {
+    font-family: 'Montserrat', sans-serif;
+    width: 90%; 
+    height: 90%; 
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-principal {
+    font-size: 48px; 
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.seccion-imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    width: 70%;
+}
+
+.imagen-y-boton {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagen-y-boton img {
+    width: 300px; 
+    height: auto; 
+    margin-bottom: 15px;
+}
